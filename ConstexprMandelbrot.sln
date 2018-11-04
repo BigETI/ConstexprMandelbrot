@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConstexprMandelbrot", "ConstexprMandelbrot\ConstexprMandelbrot.vcxproj", "{7C1D20F9-0F3B-47C9-B4B3-AF8C2AA1623D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C1D20F9-0F3B-47C9-B4B3-AF8C2AA1623D}.Debug|x64.ActiveCfg = Debug|x64
+		{7C1D20F9-0F3B-47C9-B4B3-AF8C2AA1623D}.Debug|x64.Build.0 = Debug|x64
+		{7C1D20F9-0F3B-47C9-B4B3-AF8C2AA1623D}.Debug|x86.ActiveCfg = Debug|Win32
+		{7C1D20F9-0F3B-47C9-B4B3-AF8C2AA1623D}.Debug|x86.Build.0 = Debug|Win32
+		{7C1D20F9-0F3B-47C9-B4B3-AF8C2AA1623D}.Release|x64.ActiveCfg = Release|x64
+		{7C1D20F9-0F3B-47C9-B4B3-AF8C2AA1623D}.Release|x64.Build.0 = Release|x64
+		{7C1D20F9-0F3B-47C9-B4B3-AF8C2AA1623D}.Release|x86.ActiveCfg = Release|Win32
+		{7C1D20F9-0F3B-47C9-B4B3-AF8C2AA1623D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8F92976-853D-4EB4-B55F-6572E305EF2E}
+	EndGlobalSection
+EndGlobal
