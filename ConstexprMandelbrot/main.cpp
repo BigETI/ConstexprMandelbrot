@@ -28,6 +28,12 @@ static constexpr size_t width = 1500;
 /// </summary>
 static constexpr size_t height = 1000;
 
+/// <summary>
+/// Comvert image
+/// </summary>
+/// <param name="input">Input</param>
+/// <param name="result">Result</param>
+/// <returns>Result</returns>
 template <typename InputType, typename ResultType>
 constexpr static ResultType & ConvertImage(const InputType & input, ResultType & result)
 {
@@ -49,7 +55,7 @@ constexpr static ResultType & ConvertImage(const InputType & input, ResultType &
 /// </summary>
 /// <param name="argc">Argument count</param>
 /// <param name="argv">Arguments</param>
-/// <returns></returns>
+/// <returns>Exit code</returns>
 int main(int argc, char *argv[])
 {
 #ifdef RUNTIME_MANDELBROT

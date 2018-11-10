@@ -85,12 +85,9 @@ namespace ConstexprMandelbrot
 		/// <summary>
 		/// Render mandelbrot
 		/// </summary>
-		/// <param name="backgroundColor">Background color</param>
-		/// <param name="colors">Colors</param>
 		/// <param name="result">Result</param>
 		/// <param name="maxIterations">Maximal iterations</param>
 		/// <param name="antiAliased">Anti aliased</param>
-		/// <returns>Rendered mandelbrot</returns>
 		template <typename ResultType>
 		constexpr void Render(ResultType & result, size_t maxIterations = 128, bool antiAliased = true) const
 		{

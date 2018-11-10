@@ -166,7 +166,7 @@ using BGRAColor = Color<T, 2, 1, 0, 3>;
 /// ARGB color type
 /// </summary>
 template <typename T>
-using ARGBColor = Color<T, 3, 0, 1, 2>;
+using ARGBColor = Color<T, 1, 2, 3, 0>;
 
 /// <summary>
 /// ABGR color type
